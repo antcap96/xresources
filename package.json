@@ -2,18 +2,20 @@
     "name": "xresources",
     "displayName": "Xresources",
     "description": "syntax highlighting for Xresources",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.60.0"
     },
     "categories": [
         "Programming Languages"
     ],
+    "repository": {"url": "https://github.com/antcap96/xresources"},
+    "publisher": "antcap96",
     "contributes": {
         "languages": [{
             "id": "xdefaults",
             "aliases": ["Xdefaults", "xdefaults"],
-            "extensions": [""],
+            "extensions": [".Xresources"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
