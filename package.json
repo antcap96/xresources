@@ -1,0 +1,25 @@
+{
+    "name": "xresources",
+    "displayName": "Xresources",
+    "description": "syntax highlighting for Xresources",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "xdefaults",
+            "aliases": ["Xdefaults", "xdefaults"],
+            "extensions": [""],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "xdefaults",
+            "scopeName": "source.xdefaults",
+            "path": "./syntaxes/xdefaults.tmLanguage.json"
+        }]
+    }
+}
