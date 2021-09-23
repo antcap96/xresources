@@ -6,7 +6,7 @@ Xresources offers syntax highlighting for .Xresources and other similar files.
 
 Introduces a new syntax highlighting named Xdefaults:
 
-[feature X](images/example.png)
+![feature X](images/example.png)
 
 ## Release Notes
 
