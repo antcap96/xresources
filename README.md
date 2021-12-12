@@ -1,4 +1,4 @@
-# xresources README
+# xresources
 
 Xresources offers syntax highlighting for .Xresources and other similar files.
 
@@ -13,3 +13,8 @@ Introduces a new syntax highlighting named Xdefaults:
 ### 1.0.0
 
 Initial release of Xresources
+
+### 1.0.1
+
+Fix comment character
+Clean unused section

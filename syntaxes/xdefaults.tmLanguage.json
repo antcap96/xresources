@@ -27,12 +27,6 @@
 				}
 			}]
 		},
-		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.xdefaults",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
-		},
 		"resource": {
 			"patterns": [
 				{
